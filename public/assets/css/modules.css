@@ -30,6 +30,7 @@
     display: block;
     width: 100%;
     margin: 0 0 2em 0;
+    margin-top: 1em;
   }
 
   .image.left {
@@ -221,7 +222,7 @@ button,
   input[type="button"]:hover,
   input[type="submit"]:hover,
   input[type="reset"]:hover,
-  button:hover,
+  button:hover,#nav
   .button:hover {
     background-color: #9ececc;
   }
@@ -245,7 +246,7 @@ button,
     background: #fff;
     margin: 0;
     padding: 1em 0 1em 0;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
     .item header h3 {
@@ -266,7 +267,7 @@ button,
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    margin-top: -.45em;
+    margin-top: -.4em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -274,3 +275,8 @@ button,
   .icon > .label {
     display: none;
   }
+
+  @media screen and (min-width: 950px) and (max-width: 1360px) {
+.icon:before{
+  margin-top: -.67em;
+}
