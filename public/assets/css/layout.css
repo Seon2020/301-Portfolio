@@ -1755,8 +1755,8 @@
 
     #main > section.two {
       background: linear-gradient(
-				rgba(144, 189, 170, 0.5),
-				rgba(127, 173, 158, 0.5)
+				rgba(144, 189, 170, 0.4),
+				rgba(127, 173, 158, 0.4)
 			)
     }
 
