@@ -29,7 +29,7 @@ Finish time: 6:00pm
 
 Actual time needed to complete: 2 hours 
 
-# Feature 1
+# Feature 3
 
 Number and name of feature: Feature 3: Modify Contents
 
