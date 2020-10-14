@@ -1552,7 +1552,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 350px;
+		width: 400px;
 	}
 
 #header .top {
@@ -1608,7 +1608,7 @@
 #logo p {
 			position: relative;
 			display: block;
-			font-size: 0.65em;
+			font-size: 0.5em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
@@ -1646,7 +1646,7 @@
 	#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 1.2em;
 				}
 
 	#nav ul li a span:before {
@@ -1672,7 +1672,7 @@
 #footer {
   margin-left: 375px;
   text-align: center;
-  background-color: #dce3e2;
+  background-color: #064150;
   padding: 3em 0 4em 0;
   box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
   font-size: 0.8em;
@@ -1712,8 +1712,9 @@
   }
 
     #main > section.dark {
-      color: #ddd;
-      color: rgba(255, 255, 255, 0.75);
+      color: rgb(255, 255, 255);
+			color: rgba(245, 238, 238, 0.75);
+
     }
 
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -1721,8 +1722,9 @@
       }
 
       #main > section.dark strong {
-        color: #fff;
-        border-color: inherit;
+        color: rgb(212, 210, 210);
+				border-color: inherit;
+				font-weight: bolder;
       }
 
       #main > section.dark a {
@@ -1741,21 +1743,36 @@
     }
 
     #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+			background-color: #8e8191;
+			background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+		), url(../css/images/Headerpic.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
     }
 
     #main > section.two {
-      background-color: #f5fafa;
+      background: linear-gradient(
+				rgba(144, 189, 170, 0.6),
+				rgba(127, 173, 158, 0.6)
+			)
     }
 
     #main > section.three {
-      background-color: #ecf1f1;
+      background: linear-gradient(
+				rgba(34, 99, 104, 0.4),
+				rgba(37, 101, 117, 0.4)
+			)
     }
 
     #main > section.four {
-      background-color: #e8edec;
-    }
+      background: linear-gradient(
+				rgba(18, 94, 117, 0.4),
+				rgba(20, 117, 155, 0.4)
+			)
+		}
 
 /* Wide */
 
@@ -1764,7 +1781,7 @@
   /* Basic */
 
     body, input, textarea, select {
-      font-size: 17pt;
+      font-size: 21pt;
     }
 
   /* Header */
@@ -1810,7 +1827,7 @@
   /* Basic */
 
     body, input, textarea, select {
-      font-size: 16pt;
+      font-size: 21pt;
     }
 
     .container {
